@@ -1,0 +1,724 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nav{
+height: 80px;
+display: flex;
+align-items: center;
+z-index: 100px;
+justify-content: space-between;
+background-color: white;
+width: 100%;
+box-shadow: 1px 2px 20px  gray;
+position: absolute;
+top: 0px;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Anas{
+    font-family: "Lilita One", sans-serif;
+    font-size: 40px;
+    color: white;
+transition: animate 4s linear;
+position: relative;
+-webkit-text-stroke: 0.5px #9548f5;
+margin-left: 25px;
+}
+.Anas:before{
+    top: 0;
+  content: "Anas";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+  color: #9548f5;
+    border-right: 3px solid #9548f5;
+    -webkit-text-stroke: 0px red;
+   overflow: hidden;
+    animation: animate 3s linear infinite;
+    
+}
+@keyframes animate {
+    0%{
+
+        width: 0%;
+      
+    }
+    100%{
+        width: 100%;
+       
+       
+    }
+}
+
+.a{
+    color: #9548f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+  position: relative;
+    font-size: 15px;
+    padding: 5px;
+}
+.a:after{
+  content: "";
+  position: absolute;
+  background-color: #9548f5;
+  height: 3px;
+  width: 0;
+  border-radius: 20px;
+  transition: 1s;
+  bottom: 0;
+  left: 0;
+
+}
+.a:hover:after{
+   width: 100%;
+}
+.bt{
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    margin-right: 19px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+   box-shadow: 1px 2px 20px #9548f5;
+    border: none;
+    transition: 2s;
+}
+.bt:hover{
+    background-color: #9548f5;
+    color: white;
+
+}
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    scroll-behavior: smooth;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+
+}
+.c1{
+height: 300px;
+width: 400px;
+display: flex;
+
+overflow: hidden;
+align-items: start;
+margin-top: 80px;
+
+justify-content: center;
+flex-direction: column;
+padding: 20px;
+
+}
+
+.c2{
+    height: 400px;
+    background: url(vecteezy_girl-sitting-at-the-desk-and-working-on-computer_.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+width: 400px;
+
+margin-top: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.web{
+    font-family: "Passion One", sans-serif;
+    font-size: 70px;
+   margin-top: 20px;
+   top: 70px;
+  
+   color: #9548f5;
+}
+.web1{
+    font-family: "Passion One", sans-serif;
+    font-size: 70px;
+   
+}
+
+.last{
+    height: 140px;
+   width: 380PX;
+   top: 210px;
+   font-size: 7px;
+   font-style: italic;
+flex-direction: column;
+   color: grey;
+   display: flex;
+   
+   align-items: start;
+  margin-top: 10px;
+   justify-content: center;
+   
+   
+}
+.para{
+    font-family: sans-serif;
+}
+
+.btn1{
+    height: 35px;
+    width: 100px;
+  border: none;
+  background-color: #9548f5;
+  color: white;
+  border-radius: 10px;
+    box-shadow: 1px 2px 10px #9548f5;
+    font-style: italic;
+    margin-top: 19px;
+    transition: 1s;
+}
+.btn1:hover{
+    background-color: white;
+    box-shadow: 1px 2px 10px #9548f5;
+    color: black;
+}
+.btn2{
+    height: 35px;
+    font-style: italic;
+    width: 100px;
+    background-color: #9548f5;
+    color: white;
+    margin-left: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px gray;
+    border: none;
+    transition: 1s;
+    margin-top: 19px;
+}
+.btn2:hover{
+    background-color: white;
+    box-shadow: 1px 2px 10px #9548f5;
+    color: black;
+}
+#services{
+    height: 100vh;
+  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    background-color: bl;
+}
+.text{
+    font-family: "Concert One", sans-serif;
+    font-size: 50px;
+   
+    
+    transition: animate 4s linear;
+position: relative;
+    transition: 1s;
+  
+}
+.text:before{
+    top: 0;
+  content: "Services";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 100%;
+  color: #9548f5;
+   
+    -webkit-text-stroke: 0px red;
+   overflow: hidden;
+    animation: animate 3s linear infinite;
+    
+}
+@keyframes animate {
+    0%{
+
+        width: 0%;
+      
+    }
+    100%{
+        width: 100%;
+       
+       
+    }
+}
+#services h1:hover{
+   
+    color: #000000;
+    font-size: 60px;
+}
+.sermain{
+   
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 500px;
+}
+.ser1{
+    height: 300px;
+    box-shadow: 1px 2px 10px gray;
+    width: 200px;
+    display: flex;
+    position: relative;
+ 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+   
+}
+.se{
+    font-size: 20px;
+    font-family: "Playwrite DE Grund", cursive;
+    color: white;
+    font-weight:700 ;
+}
+.ser2{
+    height: 280px;
+    width: 180px;
+    display: flex;
+    position: absolute;
+ 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 2px 10px ;
+ transition: 1s;
+   background-image: linear-gradient(to left top, #6e04f2, #791ff3, #832ff4, #8c3cf4, #9548f5);
+    border-radius: 10px;
+}
+.ser2:hover{
+   transform: translateY(-40px);
+ 
+   
+}
+.p1{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: "Slabo 27px", serif;
+    font-style: italic;
+    color: white;
+}
+.read{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    box-shadow: 1px 2px 20px gray;
+    border: none;
+    border-radius: 10px;
+
+}
+#About{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+   
+}
+.about{
+    font-size: 50px;
+    color: #000000;
+    margin-right: 180px;
+    font-family: "Concert One", sans-serif;
+}
+.abt{
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    align-items: center
+    ;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: row;
+}
+.a1{
+    height: 300px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center
+    ;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    width: 400px;
+    
+}
+.a1 p{
+    font-style: italic;
+    color: #9548f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.Down{
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: #9548f5;
+    color: white;
+    font-style: italic;
+    margin-top: 10px;
+    box-shadow: 1px 2px 20px gray;
+    border-radius: 10px;
+    transition: 1s;
+}
+.Down:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 20px #9548f5;
+
+}
+.a2{
+    height: 280px;
+    width: 250px;
+    position: relative;
+    border: 12px solid #9548f5;
+  
+}
+.a3{
+    height: 280px;
+    width: 250px;
+    
+ position: absolute; 
+ top: -60px;
+ box-shadow: 1px 2px 20px gray;
+ background: url(c.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ right: -60px;
+}
+#skill{
+    height: 80vh;
+    width: 100%;
+  
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skil-box{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.skill-text{
+    font-family: "Concert One", sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 3px;
+    margin-top: 20px;
+}
+.s1{
+    height: 10px;
+    width: 400px;
+    box-shadow: 1px 2px 20px #9548f5;
+  margin-top: 10px;
+border-radius: 30px;
+position: relative;
+
+}
+.s2{
+height: 10px;
+position: absolute;
+width: 300px;
+background-color: #9548f5;
+border-radius: 30px;
+animation: progress 2s linear;
+}
+@keyframes progress {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.htm{
+    font-size: 20px;
+  margin-right: 320px;
+  font-style: italic;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.htm1{
+    font-size: 20px;
+    margin-right: 340px;
+    margin-top: 20px;
+    font-style: italic;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.htm2{
+    font-size: 20px;
+    margin-right: 280px;
+    margin-top: 20px;
+    font-style: italic;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.htm3{
+    font-size: 20px;
+    margin-right: 340px;
+    margin-top: 20px;
+    font-style: italic;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.s11{
+    height: 10px;
+    width: 400px;
+    box-shadow: 1px 2px 20px #9548f5;
+  margin-top: 10px;
+border-radius: 30px;
+position: relative;
+
+}
+.s21{
+height: 10px;
+position: absolute;
+width: 350px;
+background-color: #9548f5;
+border-radius: 30px;
+animation: progres 2s linear;
+}
+@keyframes progres {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.s12{
+    height: 10px;
+    width: 400px;
+    box-shadow: 1px 2px 20px #9548f5;
+  margin-top: 10px;
+border-radius: 30px;
+position: relative;
+
+}
+.s22{
+height: 10px;
+position: absolute;
+width: 200px;
+background-color: #9548f5;
+border-radius: 30px;
+animation: progre 2s linear;
+}
+@keyframes progre {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.s13{
+    height: 10px;
+    width: 400px;
+    box-shadow: 1px 2px 20px #9548f5;
+  margin-top: 10px;
+border-radius: 30px;
+position: relative;
+
+}
+.s23{
+height: 10px;
+position: absolute;
+width: 240px;
+background-color: #9548f5;
+border-radius: 30px;
+animation: progr 2s linear;
+}
+@keyframes progr {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.skillmi{
+    height: 320px;
+    width: 600px;
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 2px 10px gray;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+#Portfolio{
+    height: 100vh;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.por1{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+   
+}
+.por2{
+    height: 230px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+ 
+}
+.port{
+    font-size: 50px;
+    font-family: "Concert One", sans-serif;
+    color: #9548f5;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+.port:hover{
+    font-size: 70px;
+}
+.por12{
+    height: 180px;
+    width: 230px;
+    text-align: center;
+    box-shadow: 1px 2px 10px gray;
+border-radius: 10px;
+    background-color: white;
+}
+.im{
+    width: 230px;
+    height: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.por12 p{
+    font-family: "Barlow", sans-serif;
+    margin-top: 5px;
+}
+#contact{
+    height: 80vh;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactmmain{
+    height: 350px;
+    width: 700px;
+    box-shadow: 1px 2px 10px gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.cont1{
+    height: 300px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.cont1 h1{
+    font-family: "Comfortaa", sans-serif; 
+    color: #9548f5;
+    font-size: 40px;
+}
+.box{
+    height: 30px;
+    width: 230px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 10px;
+    background-color: #edf6fd;
+    border: none;
+    margin-top: 10px;
+}
+.cont2{
+    height: 330px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+   background: url(Shrug-rafiki.png);
+   background-position: center;
+   background-size: cover;
+}
+.area{
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 10px;
+    background-color: #edf6fd;
+    border: none;
+}
+.btn23{
+    height: 35px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 2px 10px gray;
+    margin-top: 10px;
+    background-color: #9548f5;
+    color: white;
+    transition: 2s;
+}
+.btn23:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 10px #9548f5;
+}
